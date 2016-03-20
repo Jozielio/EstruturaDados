@@ -46,7 +46,6 @@ public class ListaDE<E> implements Lista<E>{
 		}
 		else{
 			No pt = getNo(i);
-			
 			pt.anterior.proximo = novo;
 			novo.anterior = pt.anterior;
 			novo.proximo = pt;
@@ -112,5 +111,4 @@ public class ListaDE<E> implements Lista<E>{
 			this.valor = valor;
 		}
 	}
-
 }
