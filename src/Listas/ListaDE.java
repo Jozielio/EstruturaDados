@@ -5,8 +5,8 @@ public class ListaDE<E> implements Lista<E>{
 	private No primeiro;
 	private No ultimo;
 	private int tamanho;
-	@Override
 	
+	@Override	
 	public void add(E e) {
 		No novo = new No(e);
 		if(isEmpty()){

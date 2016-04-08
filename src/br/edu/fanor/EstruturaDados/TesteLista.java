@@ -23,5 +23,4 @@ public class TesteLista {
 		lista.add(1, 10);
 		assertEquals(2,  lista.size());
 	}
-
 }
